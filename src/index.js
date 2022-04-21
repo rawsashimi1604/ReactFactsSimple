@@ -1,15 +1,5 @@
 import React from "react"
 import ReactDOM from "react-dom"
-import Navbar from "./components/Navbar"
-import Main from "./components/Main"
-
-function App() {
-    return (
-        <div className="main">
-            <Navbar/>
-            <Main/>
-        </div>
-    )
-}
+import App from "./App"
 
 ReactDOM.render(<App/>, document.getElementById("root"));
