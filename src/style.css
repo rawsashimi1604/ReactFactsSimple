@@ -1,3 +1,65 @@
-h1 {
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #282D35;
+}
+
+h1, h2, h3 {
     font-family: Inter, sans-serif;
+}
+
+.nav {
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #21222A;
+}
+
+.nav .logo {
+    display: flex;
+    color: aqua;
+}
+
+.nav img {
+    width: 60px;
+    margin-right: 5px;
+}
+
+.nav .labels {
+    font-size: 12px;
+    color: rgb(233, 233, 233);
+}
+
+.main {
+    padding: 30px;
+    padding-top: 15px;
+    font-family: Inter;
+    color:white;
+
+    background-image: url(./images/react_logo.png);
+    background-repeat: no-repeat;
+    background-position: right 42%;
+}
+
+.main h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.main ul li {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.main > ul > li::marker {
+    font-size: 1.4rem;
+    color: aqua;
 }
